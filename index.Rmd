@@ -1,0 +1,268 @@
+---
+title: <br><br><center>Sanofi Group<center>
+author: "Minerva Martínez"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    thumbnails: false
+    lightbox: true
+    gallery: true
+    css: form.css
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+library(readxl)
+library(shiny)
+library(dplyr)
+library(knitr)
+```
+
+
+## Map
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1BCwy71SoYNzmA4SlVy_NYLJW6lA_ac1E&hl=es" width="800" height="550"></iframe>
+
+
+## June 3th {.tabset .tabset-fade .tabset-pills}
+
+### Taller de Tapas Argenteria
+
+Taller de Tapas has six restaurants spread around Barcelona, Argentería is located around 5 minutes walking from Hotel H10 MOntcada.  They present a gastronomic offer based on traditional tapas and market dishes, always based on highest quality seasonal produce. The restaurants are ideal for any time of the day thanks to the uninterrupted cooking service.
+
+<img src = "https://cdn.restaurantes.com/static/img/restaurants/392/39215/39215_9132.jpg" width="100%">
+
+<img src = "https://media-cdn.tripadvisor.com/media/photo-s/04/b3/a4/ba/taller-de-tapas.jpg" width="100%">
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+
+
+<p class="comment">
+**Tapas Menu including drinks and cofee, from 44€ VAT inc**</p>    
+
+
+### Lonja de Tapas Pla de Palau
+
+Located in the heart of Barcelona's Born quarter, Lonja de Tapas is a restaurant with high ceilings and minimalist decor where we can enjoy excellent tapas cooked to order. The value for money is very good.
+
+It is a space where the high ceilings give a feeling of spaciousness. Its offer, marked by seasonal products and strong Mediterranean accent, presents delights like the classic 'patatas bravas', cod croquettes and the superb Joselito Iberian ham.
+
+<img src = "https://u.tfstatic.com/restaurant_photos/423/213423/169/612/lonja-de-tapas-pla-de-palau-vista-sala-22c43.jpg" width="100%">
+
+<img src = "http://www.familialonja.com/wp-content/uploads/2016/06/lonja-tapas-menu-tapeo-e1467287065623.jpg" width="100%">
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+
+
+<p class="comment">
+**Tapas Menu including drinks and cofee, from 44€ VAT inc**</p>    
+
+
+## June 4th {.tabset .tabset-fade .tabset-pills}
+
+### El Glop Braseria
+
+El Glop is very popular among groups, who come here to enjoy Catalan food in a rustic and informal atmosphere at good prices. It belongs to the same group as El Nou Glop (Montmany 49), El Glop de la Rambla.
+El Glop give us a proper, traditional, lifelong Catalan cuisine. They specialize in grilled meats, and the set menu includes also sausages and cheese, bread and tomato, spring onions, etc.
+
+
+<img src = "https://u.tfstatic.com/restaurant_photos/783/273783/169/612/braseria-el-glop-vista-de-la-sala-d5d84.jpg" width="100%">
+
+<img src = "https://cdn.restaurantes.com/static/img/restaurants/359/3599/3599_2648.gl.jpg" width="100%">
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+
+
+<p class="comment">
+**Three courses menu including drink package wine (1/4 bottle pax), water  and beer or Sangría (1 pitcher each 4), coffe, from: 44,00€ VAT inc ***</p>    
+
+### Agüelo013
+
+Located in Avinyó street in Barcelona, restaurant and cocktail bar **Agüelo013** was born to convert the old tavern The Agüelo from 1850, in a modern space that combines the rustic and traditional style of its predecessor with a more modern aesthetic.
+
+The space welcomes us with a bar where delicious signature cocktails are prepared, also it has a restaurant area on the top floor, a private room and a large basement for groups and events.
+
+Agüelo013 offers tapas and traditional dishes of Mediterranean cuisine. It is a cuisine based on traditional flavors that also includes proposals vanguard to enjoy a charming and informal atmosphere.
+
+
+<img src = "https://u.tfstatic.com/restaurant_photos/419/38419/169/612/aguelo013-entrada-4e847.jpg" width="100%">
+
+<img src = "https://u.tfstatic.com/restaurant_photos/419/38419/169/612/aguelo013-la-sala-7f64e.jpg" width="100%">
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+
+
+<p class="comment">
+**Group Menu: starters to share + main course + dessert, including drinks and coffee, from:40€ VAT  **</p>    
+
+
+## June 5th {.tabset .tabset-fade .tabset-pills}
+
+### Dolça Herminia
+
+Not easy to find restaurants where quality and price go hand in hand in this area of the city. In the Gothic Quarter, where the variety of restaurants is spectacular, La Dolça Herminia wanted to make a firm commitment to offer its guests genuine and fit any pockets dishes.
+
+The set menu offers dishes cuisine with some sophistication in which quality of the ingredients. Guests will enjoy of a traditional catalan cuisine combinated with sophisticated touches.
+
+<img src = "https://u.tfstatic.com/restaurant_photos/680/66680/169/612/la-dolca-herminia-la-dolca-herminia-3-59dc6.jpg" width="100%">
+
+<img src = "https://u.tfstatic.com/restaurant_photos/680/66680/169/612/la-dolca-herminia-la-dolca-herminia-1-82350.jpg" width="100%">
+
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+
+
+<p class="comment">
+**Group Menu: starters to share + main course + dessert, including drinks and coffee, from:37,50€ VAT  **</p>  
+
+### El Pintor
+
+El Pintor presents a very cosy rustic setting with stone walls and wooden ceiling beams, divided in two floors. At the same time, it is the perfect scenario for a special evening, for the charm and romantic air of the restaurant are all around.
+
+The cuisine is deeply-rooted in Catalan traditions and is made with high quality season products. The service is, as well excellent. It also offers good value for money.
+
+<img src = "https://cdn.restaurantes.com/static/img/restaurants/377/377/377_1017.gl.jpg" width="100%">
+
+<img src = "https://www.gruptravi.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_47_1396539261/content/assets/El_pintor_01-0.jpg" width="100%">
+
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+
+
+<p class="comment">
+**Group Menu: starters to share + main course + dessert, including drinks and coffee, from:37,50€ VAT  **</p>  
+
+
+## June 6th {.tabset .tabset-fade .tabset-pills}
+
+### Arròs i Peix
+
+Arròs i Peix is an innovative restaurant. They have their own striking in-house fish market, which beckons those in search of a unique dining experience, and the highest quality of fresh ingredients.  
+They aim to exceed the customers’ expectations, taking care of every detail and offer the best quality products available.
+
+The kitchen is the heart of the restaurant. Utilising a wealth of experience, their chefs take great care to prepare each individual dish with wisdom and respect for the produce.
+
+One og the most important thing is that the customer enjoys the presentation, flavours and textures, which will ultimately create a desire to return.
+
+
+<img src = "https://u.tfstatic.com/restaurant_photos/899/324899/169/612/arros-i-peix-barcelona-arros-i-peix-barcelona-1-2d72d.jpg" wwidth="100%">
+
+<img src = "https://u.tfstatic.com/restaurant_photos/899/324899/169/612/arros-i-peix-barcelona-arros-i-peix-barcelona-3-43e93.jpg" width="100%">
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+
+
+<p class="comment">
+**Group Menu: starters to share + main course + dessert, including drinks and coffee, from:50€ VAT  **</p>  
+
+
+### Casa Carmen Passeig de Gràcia
+
+Casa Carmen is a young, dynamic and countinuously growing restaurant group that already has establishments in Madrid, Seville and Barcelona. After the success of the restaurants located in Gran Via 2 and Diagonal Mar shopping center, Casa Carmen arrives in 2017 at the emblemathic Passeig de Gràcia.
+
+Folowing the lines of its namesakes, Casa Carmen presents a menu that combines traditional Mediterranean recipies with fusion dishes in a contemporary and cozy space. In addition, they also offer different set menus for groups with excellent value for money.
+
+<img src = "https://u.tfstatic.com/restaurant_photos/555/318555/169/612/casa-carmen-passeig-de-gracia-casa-carmen-passeig-de-gracia-1-1dd47.jpg" width="100%">
+
+<img src = "https://u.tfstatic.com/restaurant_photos/849/419849/169/612/casa-carmen-l-illa-diagonal-vista-sala-7455b.jpg" width="100%">
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+
+
+<p class="comment">
+**Group Menu: starters to share + main course + dessert, including drinks and coffee, from:42,50€ VAT  **</p>  
+
+## Transfers Rates
+
+    * 30 seater bus transfer in/out aiport (from 8.00h to 20.00h): 186€ VAT inc
+
+*****
+
+## Terms & Conditions
+
+  * Rates valid for 2019.
+  
+  * Net rates for Business Travel
+  
+  * For a group of minimum 20 pax.
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+  
+  * No reservation has been done. Availability upon request.
+  
+*****
